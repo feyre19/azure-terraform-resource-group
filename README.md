@@ -16,7 +16,7 @@ No requirements.
 ```hcl
 
 module "tlz_resource_group" {
-  source               = "https://github.com/feyre19/azure-terraform-resource-group"
+  source               = "git::https://github.com/feyre19/azure-terraform-resource-group"
   rg_name              = "demo"
   prefix               = var.prefix
   environment          = var.environment
